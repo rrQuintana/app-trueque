@@ -1,9 +1,11 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Banner } from "./components/Banner"
 
 function App() {
   return (
     <div>
-      <h1>Proyecto</h1>
+      <Banner></Banner>
     </div>
   );
 }
